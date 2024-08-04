@@ -1,4 +1,4 @@
-package com.mistake.day4.demo1;
+package com.mistake.day4.demo2;
 
 import java.sql.*;
 import java.util.List;
@@ -17,7 +17,7 @@ public class DbProc {
             Class.forName(strDriver);
             connection = DriverManager.getConnection(strDb, userName, password);
             System.out.println("数据库连接成功！");
-        }catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
             System.out.println("JDBC驱动未找到！");
         } catch (SQLException e) {

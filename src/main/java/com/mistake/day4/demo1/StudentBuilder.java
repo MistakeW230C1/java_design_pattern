@@ -49,29 +49,37 @@ public class StudentBuilder extends UIBuilder implements ActionListener {
         JPanel south = new JPanel();
         // 第一列垂直box对象b
         Box b = Box.createVerticalBox();
+
         b.add(new JLabel("姓名"));
         b.add(Box.createVerticalStrut(8));
+
         b.add(new JLabel("年龄"));
         b.add(Box.createVerticalStrut(8));
+
         b.add(new JLabel("专业"));
         b.add(Box.createVerticalStrut(8));
+
         b.add(new JLabel("学院"));
         b.add(Box.createVerticalStrut(8));
         Box b2 = Box.createVerticalBox();
         b2.add(studName);
-        b.add(Box.createVerticalStrut(8));
+        b2.add(Box.createVerticalStrut(8));
+
         b2.add(studAge);
-        b.add(Box.createVerticalStrut(8));
+        b2.add(Box.createVerticalStrut(8));
+
         b2.add(studMajor);
-        b.add(Box.createVerticalStrut(8));
+        b2.add(Box.createVerticalStrut(8));
+
         b2.add(studDepart);
-        b.add(Box.createVerticalStrut(8));
+        b2.add(Box.createVerticalStrut(8));
         center.add(b);
         center.add(b2);
+
         south.add(updateBtn);
         panel.setLayout(new BorderLayout());
         panel.add(center, BorderLayout.CENTER);
-        panel.add(center, BorderLayout.SOUTH);
+        panel.add(south, BorderLayout.SOUTH);
     }
 
     @Override

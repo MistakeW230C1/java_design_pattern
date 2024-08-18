@@ -17,6 +17,7 @@ public class DataObserver implements Observer {
             dbProc.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
+
         }
     }
 }

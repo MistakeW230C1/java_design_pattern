@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd" >
+<properties>
+    <comment>Observer</comment>
+    <entry key="range">2</entry>
+    <entry key="limit">30</entry>
+    <entry key="nums">5</entry>
+    <entry key="address">11111@163.com</entry>
+    <entry key="reflect">DataRandom</entry>
+</properties>

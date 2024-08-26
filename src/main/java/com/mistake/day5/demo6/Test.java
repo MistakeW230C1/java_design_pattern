@@ -1,8 +1,5 @@
 package com.mistake.day5.demo6;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import org.springframework.javapoet.ClassName;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Observer;

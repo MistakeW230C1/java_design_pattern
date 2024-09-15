@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Vector;
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public class StudentBuilder extends UIBuilder implements ActionListener {
     String user;

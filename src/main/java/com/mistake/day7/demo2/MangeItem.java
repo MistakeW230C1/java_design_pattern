@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.Vector;
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public class MangeItem {
     /**

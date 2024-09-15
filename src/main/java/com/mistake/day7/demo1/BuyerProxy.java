@@ -1,7 +1,7 @@
 package com.mistake.day7.demo1;
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public class BuyerProxy implements ITV {
     private Buyer buyer;

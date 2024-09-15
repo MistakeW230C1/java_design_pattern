@@ -1,7 +1,7 @@
 package com.mistake.day7.demo2;
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public interface IItem {
     /**

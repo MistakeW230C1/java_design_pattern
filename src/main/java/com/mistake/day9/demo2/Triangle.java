@@ -2,7 +2,7 @@ package com.mistake.day9.demo2;
 
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public class Triangle implements IShape {
     float x1, y1, x2, y2, x3, y3;

@@ -1,7 +1,7 @@
 package com.mistake.day9.demo3;
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public interface IElement {
 

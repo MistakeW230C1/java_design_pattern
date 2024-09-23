@@ -2,7 +2,7 @@ package com.mistake.day9.demo2;
 
 
 /**
- * @author leoliu
+ * @author mistake
  */
 public interface IShape {
     float getArea();

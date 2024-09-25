@@ -1,0 +1,6 @@
+<a name="a" prop1="a2">
+    <b name="b1" prop1="b11">bvalue</b>
+    <b name="b2">bvalue2</b>
+    <c>cvalue</c>
+</a>
+<a2>avalue2</a2>
